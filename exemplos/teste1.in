@@ -1,0 +1,12 @@
+// o nome do grafo
+triângulo_com_vértice
+
+// uma lista com três arestas e seus pesos
+um -- dois 12
+dois -- tres 24
+tres -- quatro 5
+quatro -- cinco 12
+tres -- cinco 2
+
+// um vértice isolado
+isolado
