@@ -19,7 +19,7 @@ A análise executada sobre o grafo de entrada permite a extração das seguintes
 O sistema é organizado em módulos com responsabilidades bem definidas, a fim de promover a manutenibilidade e a clareza do código-fonte:
 
 * **`estrutura_grafo.h`**: Arquivo de cabeçalho que define as estruturas de dados primárias do projeto: `struct grafo`, `struct vertice` e `struct vizinho`.
-* **`main.c`**: Ponto de entrada da aplicação. Coordena o fluxo de execução, desde a leitura do grafo até a apresentação dos resultados e a liberação de memória.
+* **`grafo.c`**: Coordena o fluxo de execução, desde a leitura do grafo até a apresentação dos resultados e a liberação de memória.
 * **`dfs.c`**: Contém a implementação da Busca em Profundidade (Depth-First Search) e os algoritmos derivados para análise estrutural.
 * **`dijkstra.c`**: Implementa o algoritmo de Dijkstra para o cálculo de caminhos mínimos e a função para determinação de diâmetros.
 * **`fila.c`**: Provê uma estrutura de dados de fila com funcionalidade de prioridade, essencial para a execução de algoritmos de otimização como o de Dijkstra.
