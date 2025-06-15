@@ -2,7 +2,7 @@
 
 ## 1. Visão Geral
 
-Este projeto consiste em uma biblioteca de software, desenvolvida em linguagem C, para a modelagem e análise estrutural de grafos não-direcionados. O programa é capaz de processar uma representação de um grafo, extrair um conjunto de propriedades fundamentais e apresentar os resultados de forma textual.
+Este projeto consiste em uma biblioteca de software, desenvolvida em linguagem C, para a modelagem e análise estrutural de grafos ponderados não-direcionados. O programa é capaz de processar uma representação de um grafo, extrair um conjunto de propriedades fundamentais e apresentar os resultados de forma textual.
 
 ## 2. Funcionalidades
 

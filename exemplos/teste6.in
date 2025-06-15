@@ -1,0 +1,21 @@
+Misto
+
+// Componente 1: Uma linha que é bipartida.
+// B e C são vértices de corte. Todas as arestas são pontes.
+A -- B 10
+B -- C 5
+C -- D 10
+
+// Componente 2: Um ciclo de tamanho 5 (não bipartido).
+// Não possui pontes nem vértices de corte.
+p1 -- p2 1
+p2 -- p3 1
+p3 -- p4 1
+p4 -- p5 1
+p5 -- p1 1
+
+// Componente 3: Uma ponte simples (bipartido).
+X -- Y 20
+
+// Componente 4: Vértice isolado (bipartido).
+sozinho

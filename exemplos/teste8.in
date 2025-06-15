@@ -1,0 +1,24 @@
+Rede_Social
+
+// O 'influenciador' conecta os grupos
+ana -- influencer
+bia -- influencer
+duda -- influencer
+
+// Grupo 1
+ana -- carlos
+ana -- bruno
+carlos -- bruno
+
+// Grupo 2
+bia -- erick
+bia -- fabio
+
+// Conexão entre grupos
+erick -- duda
+
+// Usuário com poucas conexões
+gabi -- fabio
+
+// Usuário novo, sem conexões
+hugo

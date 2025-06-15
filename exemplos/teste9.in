@@ -1,0 +1,15 @@
+Mapa_Cidades
+
+// Um ciclo principal com um atalho
+A -- B 150
+B -- C 80
+C -- D 120
+D -- A 200
+A -- C 210 // Atalho
+
+// Cidades conectadas a D
+D -- E 50
+D -- F 75
+
+// Uma cidade mais distante
+F -- G 300

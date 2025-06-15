@@ -1,0 +1,9 @@
+Bipartido_Complexo
+
+a1 -- hub 2
+a2 -- hub 2
+b1 -- hub 5
+b2 -- hub 5
+// Adicionando mais "pernas" para garantir que seja bipartido.
+a1 -- a3 1
+a2 -- a4 1

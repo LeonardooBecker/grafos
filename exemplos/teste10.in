@@ -1,0 +1,18 @@
+Topologia_Rede
+
+// Componente 1: Servidores em cascata (com pontes)
+gateway -- firewall 2
+firewall -- webserver 5
+webserver -- appserver 1
+
+// Componente 2: Cluster de banco de dados (robusto e completo)
+db1 -- db2
+db2 -- db3
+db3 -- db1
+
+// Componente 3: Serviço legado isolado
+servico_antigo
+
+// Componente 4: Estações de trabalho
+pc_ana -- pc_beto 10
+pc_beto -- pc_carlos
